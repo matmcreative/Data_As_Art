@@ -106,9 +106,14 @@ I then created a query to select all metadata for songs containing the 50 most c
 Using the new dataset, I created multiple visualizations.
 
 ![Word Cloud](results/word_cloud.png)
+
 ![Songs by Key ](results/songs_by_key.png)
-(where 0-C, 1-C#/Db, 2-D, 3-D#/Eb, 4-E, 5-F, 6-F#/Gb, 7-G, 8-Ab/G#, 9-A, 10-A#/Bb, 11-B)
+
+(where 0-C, 1-C#/Db, 2-D, 3-D#/Eb, 4-E, 5-F, 
+6-F#/Gb, 7-G, 8-Ab/G#, 9-A, 10-A#/Bb, 11-B)
+
 ![Tempo Vs. Key](results/tempo_key_comparison.png)
+
 ![Common Word compared to Tempo and Key](results/words_by_tempo.png)
 
 
