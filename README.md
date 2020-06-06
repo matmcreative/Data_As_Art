@@ -4,6 +4,7 @@
 * [Objective](#Objective)
 * [Technologies](#Technologies)
 * [ETL](#ETL)
+* [Visualization](#Visualization)
 * [Troubleshooting](#Troubleshooting)
 
 # Objective | Create a Database Utilizing ETL on Music Dataset
@@ -100,7 +101,7 @@ I then created a query to select all metadata for songs containing the 50 most c
 
 ![Song Metadata](results/50_most_common_metadata.csv)
 
-## Visualize
+# Visualization
 
 Using the new dataset, I created multiple visualizations.
 
