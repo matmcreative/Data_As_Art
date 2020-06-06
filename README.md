@@ -4,6 +4,7 @@
 * [Objective](#Objective)
 * [Technologies](#Technologies)
 * [ETL](#ETL)
+* [Visualization](#Visualization)
 * [Troubleshooting](#Troubleshooting)
 
 # Objective | Create a Database Utilizing ETL on Music Dataset
@@ -57,12 +58,6 @@ However, after processing, I did not have enough data to achieve the results I w
        df.head()
        '''
    
-   Reduced dataset to years 2010 - 2019 to more acurately compare with the obtained Spotify dataset
-      
-      '''
-      grammy_df = grammy_df.loc[grammy_df["year"]> 2009]
-      grammy_df.head()
-      '''
    Rename columns for functionality
    
       '''
@@ -106,14 +101,15 @@ I then created a query to select all metadata for songs containing the 50 most c
 
 ![Song Metadata](results/50_most_common_metadata.csv)
 
-## Visualize
+# Visualization
 
 Using the new dataset, I created multiple visualizations.
 
-* WordCloud
-* Songs by Key (where 0-C, 1-C#/Db, 2-D, 3-D#/Eb, 4-E, 5-F, 6-F#/Gb, 7-G, 8-Ab/G#, 9-A, 10-A#/Bb, 11-B)
-* Tempo Vs. Key
-* Common Word compared to Tempo and Key
+![Word Cloud](results/word_cloud.png)
+![Songs by Key ](results/songs_by_key.png)
+       (where 0-C, 1-C#/Db, 2-D, 3-D#/Eb, 4-E, 5-F, 6-F#/Gb, 7-G, 8-Ab/G#, 9-A, 10-A#/Bb, 11-B)
+![Tempo Vs. Key](results/tempo_key_comparison.png)
+![Common Word compared to Tempo and Key](results/words_by_tempo.png)
 
 
 # Troubleshooting
