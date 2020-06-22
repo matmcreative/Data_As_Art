@@ -104,10 +104,11 @@ Using the new dataset, I created multiple visualizations.
 (where 0-C, 1-C#/Db, 2-D, 3-D#/Eb, 4-E, 5-F, 6-F#/Gb, 7-G, 8-Ab/G#, 9-A, 10-A#/Bb, 11-B)
 
 * Tempo / Key Comparison 
+
 <img src="results/tempo_key_comparison.png" width=500 align=center>
 
-
-* Common Word compared to Tempo and Key <img src="results/words_by_tempo.png" width=500 align=center>
+* Common Word compared to Tempo and Key 
+<img src="results/words_by_tempo.png" width=500 align=center>
 
 # Troubleshooting
 
