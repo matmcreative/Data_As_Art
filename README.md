@@ -40,7 +40,6 @@ df = pd.read_csv(file, encoding="ISO-8859-1")
 ```
 ## T | Transform
 * Limited the dataset to only include entries with a *title*
-
 ```
 song_df=grammy_df[grammy_df['category'].str.contains('Song')]
 ```
@@ -55,23 +54,19 @@ df.head()
 ```
    
 * Rename columns for functionality
-   
-      '''
-      df = df.rename(columns={'artist.name': 'artist_name', 'song.id': 'song_id', 'artist.hotttnesss':'artist_hotttnesss'})
-      '''
+```
+df = df.rename(columns={'artist.name': 'artist_name', 'song.id': 'song_id', 'artist.hotttnesss':'artist_hotttnesss'})
+```
       
-   Drop all rows with missing information
-   
-      '''
-      df = df.dropna(how='any')
-      '''
+* Drop all rows with missing information
+```
+df = df.dropna(how='any')
+```
       
-   Export file as a CSV, without the Pandas index, but with the header
-
-      '''
-      df.to_csv("music_cleaned.csv", index=False, header=True)
-      '''
-      
+* Export file as a CSV, without the Pandas index, but with the header
+```
+df.to_csv("music_cleaned.csv", index=False, header=True)
+```
   
 ## L | Load
 
