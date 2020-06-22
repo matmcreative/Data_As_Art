@@ -116,7 +116,6 @@ Using the new dataset, I created multiple visualizations.
 
 ![Common Word compared to Tempo and Key](results/words_by_tempo.png)
 
-
 # Troubleshooting
 
 * Started with ambition to work with API's - Spotify, Apple Music, and Youtube
