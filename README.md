@@ -119,7 +119,16 @@ Using the new dataset, I created multiple visualizations.
 
 # Troubleshooting
 
-* Started with ambition to work with API's - Spotify, Apple Music, and Youtube 
+* Started with ambition to work with API's - Spotify, Apple Music, and Youtube
+
+### Attempt to Authenticate Spotify
+```
+var express = require('express'); // Express web server framework
+var app = express();
+app.use(express.static(__dirname + '/public'));
+console.log('Listening on 8080');
+app.listen(8080);
+```
 * Changed course to work with Million Song Dataset, but the dataset was in db format and I was unable to convert it.
 * Ultimately used existing csv data for the purpose of the project
 * While working with API's the main challenges were working with all the necessary components and downloading all the suggested packages I was unfamiliar with using.
