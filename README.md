@@ -49,6 +49,7 @@ However, after processing, I did not have enough data to achieve the results I w
        '''
    
    Delete extraneous columns
+   
        '''
        del df['artist_mbtags']
        del df['familiarity']
@@ -98,7 +99,7 @@ Created query to discover the 50 most common words in the song titles using spli
 
 I then created a query to select all metadata for songs containing the 50 most common words. and exported it to a csv.
 
-![Song Metadata](results/50_most_common_metadata.csv)
+[Song Metadata](results/50_most_common_metadata.csv)
 
 # Visualization
 
