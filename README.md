@@ -130,7 +130,11 @@ console.log('Listening on 8080');
 app.listen(8080);
 ```
 * Changed course to work with Million Song Dataset, but the dataset was in db format and I was unable to convert it.
+```
+pd.read_sql(sqlite, con, index_col=None, coerce_float=True, params=None, parse_dates=None, columns=None, chunksize=None)['sqlite:///track_metadata.db']
+```
 * Ultimately used existing csv data for the purpose of the project
+
 * While working with API's the main challenges were working with all the necessary components and downloading all the suggested packages I was unfamiliar with using.
 
 
