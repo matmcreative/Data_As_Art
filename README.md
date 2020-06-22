@@ -34,11 +34,10 @@ However, after processing, I did not have enough data to achieve the results I w
 ## E | Extract
 * Downloaded CSV dataset
 * Read in CSV data in a Jupyter notebook file with Pandas
-       
-       '''
-      file = 'Song-Classification/music.csv'
-      df = pd.read_csv(file, encoding="ISO-8859-1")
-       '''
+``` 
+file = 'Song-Classification/music.csv'
+df = pd.read_csv(file, encoding="ISO-8859-1")
+```
 ## T | Transform
 
  
