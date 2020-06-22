@@ -39,25 +39,22 @@ file = 'Song-Classification/music.csv'
 df = pd.read_csv(file, encoding="ISO-8859-1")
 ```
 ## T | Transform
+* Limited the dataset to only include entries with a *title*
 
- 
-   Limited the dataset to only include entries with a *title*
-      
-       '''
-       song_df=grammy_df[grammy_df['category'].str.contains('Song')]
-       '''
+```
+song_df=grammy_df[grammy_df['category'].str.contains('Song')]
+```
+
+* Delete extraneous columns
+```
+del df['artist_mbtags']
+del df['familiarity']
+del df['similarity']
+del df['song.hotttnesss']
+df.head()
+```
    
-   Delete extraneous columns
-   
-       '''
-       del df['artist_mbtags']
-       del df['familiarity']
-       del df['similarity']
-       del df['song.hotttnesss']
-       df.head()
-       '''
-   
-   Rename columns for functionality
+* Rename columns for functionality
    
       '''
       df = df.rename(columns={'artist.name': 'artist_name', 'song.id': 'song_id', 'artist.hotttnesss':'artist_hotttnesss'})
